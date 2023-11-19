@@ -7,6 +7,11 @@ This application serves as a log ingestor and provides a user-friendly query int
 
 This Flask application provides a web-based log ingestor and a query interface to efficiently handle log data. Logs are stored in a PostgreSQL database, and the application supports features such as log ingestion over HTTP and log querying with various filters.
 
+<img src="1.jpg">
+
+<img src="2.jpg">
+
+
 ## Getting Started
 
 ### Prerequisites
