@@ -18,18 +18,16 @@ This Flask application provides a web-based log ingestor and a query interface t
 ### Installation
 
 1. Clone the repository:
+2. git clone https://github.com/yourusername/log-ingestor.git
+3. Install the required dependencies:
+4. cd log-ingestor
+5. pip install -r requirements.txt
+6. Set up the PostgreSQL database and configure the connection string in app.py:
+7. app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://your_username:your_password@your_host/your_database?sslmode=require'
+8. Run the application:
+9. python app.py
 
-   git clone https://github.com/yourusername/log-ingestor.git
-2. Install the required dependencies:
-
-cd log-ingestor
-pip install -r requirements.txt
-Set up the PostgreSQL database and configure the connection string in app.py:
-
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://your_username:your_password@your_host/your_database?sslmode=require'
-Run the application:
-python app.py
-Usage
+### Usage
 Log Ingestion
 Logs can be ingested by sending a POST request to the /ingest endpoint. Use the following JSON format for log data:
 
