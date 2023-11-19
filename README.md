@@ -50,5 +50,12 @@ The application supports advanced features such as search within specific date r
 - Database Schema
 The PostgreSQL database schema is defined in the Log model in app.py. Ensure that the database is created with the required tables before running the application.
 
-- Contributing
-Contributions are welcome! Feel free to open issues or pull requests.
+
+<!-- CONTACT -->
+## Contact
+
+Your Name - Shashank Kumar - CS20237@glbitm.ac.in
+
+Project Link: https://github.com/8bitchips/log-ingestor/
+
+
